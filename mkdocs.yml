@@ -1,9 +1,9 @@
-site_name: My MkDocs Material Documentation
+site_name: GitHub Repository Management API
 site_url: https://sitename.example
 theme:
   name: material
   font:
-    text: Merriweather Sans
+    text: Roboto
     code: Red Hat Mono
   palette:
     # Dark Mode
@@ -28,11 +28,10 @@ theme:
 
 markdown_extensions:
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
-markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -50,3 +49,9 @@ markdown_extensions:
   - pymdownx.details
 
 copyright: Copyright &copy; 2026 Gracija Nikolovska
+
+plugins:
+  - search
+  - swagger-ui-tag
+
+
