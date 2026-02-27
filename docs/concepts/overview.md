@@ -67,20 +67,7 @@ Issues help teams track and organize work.
 - Can have labels (e.g., `bug`, `enhancement`)
 - Support comments and discussions
 
-### Issue Lifecycle
-
-An issue typically follows this logical flow:
-
-```mermaid
-flowchart LR
-    A[Open] --> B[Assigned]
-    B --> C[In Progress]
-    C --> D[Closed]
-```
-
 While GitHub technically enforces only `open` and `closed` states, teams often implement structured workflows using labels and automation.
-
----
 
 ## Why Issues Matter
 
@@ -106,8 +93,6 @@ A **pull request (PR)** is a proposal to merge changes from one branch into anot
 
 Pull requests are the foundation of collaborative development.
 
----
-
 ## Key Characteristics
 
 - Belong to a repository  
@@ -118,20 +103,6 @@ Pull requests are the foundation of collaborative development.
 - Support reviews and comments
 - Can reference related issues  
 
----
-
-## Pull Request Workflow
-
-A typical pull request workflow looks like this:
-
-```mermaid
-flowchart TD
-    A[Create Branch] --> B[Commit Changes]
-    B --> C[Open Pull Request]
-    C --> D[Review]
-    D --> E[Approve]
-    E --> F[Merge]
-```
 
 Pull requests often reference issues using keywords like: `Closes #123`
 
@@ -151,6 +122,7 @@ In the API, pull requests allow integrations to:
 - Track review status  
 - Trigger deployment workflows  
 
+---
 
 ## How These Concepts Connect
 
