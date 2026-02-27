@@ -25,7 +25,7 @@ All endpoints require authentication via a GitHub personal access token:
 
         Retrieve all repositories for the authenticated user.
 
-        ### Request
+        <h3>Request</h3>
 
         ```http
         GET /user/repos  
@@ -33,7 +33,7 @@ All endpoints require authentication via a GitHub personal access token:
         Accept: application/vnd.github+json  
         ```
 
-        ### Query Parameters
+        <h3>Query Parameters</h3>
 
         - `type` (string) – `all` | `owner` | `public` | `private`
         - `sort` (string) – `created` | `updated` | `pushed` | `full_name`
@@ -41,7 +41,7 @@ All endpoints require authentication via a GitHub personal access token:
         - `page` (integer) – page number for pagination
 
 
-        ### Response Example
+        <h3>Response Example</h3>
 
         ```json
         [
@@ -66,7 +66,7 @@ All endpoints require authentication via a GitHub personal access token:
 
         Create a new repository for the authenticated user.
 
-        ### Request
+        <h3>Request</h3>
 
         ```http
         POST /user/repos  
@@ -75,11 +75,11 @@ All endpoints require authentication via a GitHub personal access token:
         Content-Type: application/json  
         ```
 
-        ### Query Parameters
+        <h3>Query Parameters</h3>
 
         None.
 
-        ### Request Body Example
+        <h3>Request Body Example</h3>
 
         ```json
         {
@@ -90,7 +90,7 @@ All endpoints require authentication via a GitHub personal access token:
         }
         ```
 
-        ### Response Example
+        <h3>Response Example</h3>
 
         ```json
         {
@@ -109,7 +109,7 @@ All endpoints require authentication via a GitHub personal access token:
 
         Retrieve notermation about a specific repository.
 
-        ### Request
+        <h3>Request</h3>
 
         ```http
         GET /repos/{owner}/{repo}  
@@ -117,16 +117,16 @@ All endpoints require authentication via a GitHub personal access token:
         Accept: application/vnd.github+json  
         ```
 
-        ### Path Parameters
+        <h3>Path Parameters</h3>
 
         - `owner` – repository owner username
         - `repo` – repository name
 
-        ### Query Parameters
+        <h3>Query Parameters</h3>
 
         None.
 
-        ### Response Example
+        <h3>Response Example</h3>
 
         ```json
         {
@@ -148,7 +148,7 @@ All endpoints require authentication via a GitHub personal access token:
 
         Retrieve all issues for a repository.
 
-        ### Request
+        <h3>Request</h3>
 
         ```http
         GET /repos/{owner}/{repo}/issues  
@@ -156,12 +156,12 @@ All endpoints require authentication via a GitHub personal access token:
         Accept: application/vnd.github+json  
         ```
 
-        ### Path Parameters
+        <h3>Path Parameters</h3>
 
         - `owner` – repository owner username
         - `repo` – repository name
 
-        ### Query Parameters
+        <h3>Query Parameters</h3>
 
         - `state` (string) – `open` | `closed` | `all`
         - `labels` (string) – comma-separated label names
@@ -169,7 +169,7 @@ All endpoints require authentication via a GitHub personal access token:
         - `per_page` (integer) – number of items per page
         - `page` (integer) – page number for pagination
 
-        ### Response Example
+        <h3>Response Example</h3>
 
         ```json
         [
@@ -191,7 +191,7 @@ All endpoints require authentication via a GitHub personal access token:
 
         Create a new issue in a repository.
 
-        ### Request
+        <h3>Request</h3>
 
         ```http
         POST /repos/{owner}/{repo}/issues  
@@ -200,16 +200,16 @@ All endpoints require authentication via a GitHub personal access token:
         Content-Type: application/json  
         ```
 
-        ### Path Parameters
+        <h3>Path Parameters</h3>
 
         - `owner` – repository owner username
         - `repo` – repository name
 
-        ### Query Parameters
+        <h3>Query Parameters</h3>
 
         None.
 
-        ### Request Body Example
+        <h3>Request Body Example</h3>
 
         ```json
         {
@@ -220,7 +220,7 @@ All endpoints require authentication via a GitHub personal access token:
         }
         ```
 
-        ### Response Example
+        <h3>Response Example</h3>
 
         ```json
         {
@@ -239,7 +239,7 @@ All endpoints require authentication via a GitHub personal access token:
 
         Create a new pull request in a repository.
 
-        ### Request
+        <h3>Request</h3>
 
         ```http
         POST /repos/{owner}/{repo}/pulls  
@@ -248,16 +248,16 @@ All endpoints require authentication via a GitHub personal access token:
         Content-Type: application/json  
         ```
 
-        ### Path Parameters
+        <h3>Path Parameters</h3>
 
         - `owner` – repository owner username
         - `repo` – repository name
 
-        ### Query Parameters
+        <h3>Query Parameters</h3>
 
         None.
 
-        ### Request Body Example
+        <h3>Request Body Example</h3>
 
         ```json
         {
@@ -268,7 +268,7 @@ All endpoints require authentication via a GitHub personal access token:
         }
         ```
 
-        ### Response Example
+        <h3>Response Example</h3>
 
         ```json
         {
