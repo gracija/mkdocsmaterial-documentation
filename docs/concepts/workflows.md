@@ -1,4 +1,4 @@
-# :arrows_counterclockwise: Workflows
+# Workflows
 
 This section demonstrates **common end-to-end workflows** in the GitHub Repository Management API.  
 Diagrams help explain how repositories, issues, and pull requests interact over time.

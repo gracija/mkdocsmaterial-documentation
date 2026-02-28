@@ -198,9 +198,9 @@ The easiest way to explore the API is through the interactive [Swagger UI](./swa
 
 Steps:
 
-1. Open the Swagger page
-2. Click **Authorize**
-3. Paste your personal access token
+1. Generate a GitHub personal access token
+2. Open the Swagger UI
+3. Authorize using your token
 4. Execute any endpoint
 
 This allows you to:
