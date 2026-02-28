@@ -17,6 +17,8 @@ All endpoints require authentication via a GitHub personal access token:
 
 ---
 
+All of the endpoints in this section can be tried interactively through the [**Swagger UI**](./swagger-ui.md)
+
 ===  "Repositories Endpoints"
 
     ## List User Repositories
@@ -279,16 +281,3 @@ All endpoints require authentication via a GitHub personal access token:
         "body": "This PR fixes validation issues in the login form."
         }
         ```
-
----
-
-## Try It in Swagger
-
-All endpoints are interactive in the Swagger UI:
-
-1. Open the _Swagger UI_ page from the menu on the left
-2. Click Authorize and enter your personal access token  
-3. Explore endpoints and execute requests directly  
-4. Inspect live JSON responses  
-
-This ensures you can test workflows without writing any code.

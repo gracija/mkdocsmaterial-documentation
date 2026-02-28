@@ -1,4 +1,4 @@
-# :books: Core Concepts
+# Core Concepts
 
 Before exploring individual API endpoints, it’s important to understand the core objects that power the GitHub Repository Management API.
 
@@ -69,7 +69,7 @@ Issues help teams track and organize work.
 
 While GitHub technically enforces only `open` and `closed` states, teams often implement structured workflows using labels and automation.
 
-## Why Issues Matter
+### Why Issues Matter
 
 Issues are often the starting point of development work.
 
@@ -93,7 +93,7 @@ A **pull request (PR)** is a proposal to merge changes from one branch into anot
 
 Pull requests are the foundation of collaborative development.
 
-## Key Characteristics
+### Key Characteristics
 
 - Belong to a repository  
 - Compare two branches:
@@ -108,7 +108,7 @@ Pull requests often reference issues using keywords like: `Closes #123`
 
 When merged, the linked issue can automatically close.
 
-## Why Pull Requests Matter
+### Why Pull Requests Matter
 
 Pull requests provide:
 

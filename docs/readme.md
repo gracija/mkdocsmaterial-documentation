@@ -82,4 +82,4 @@ see **Getting Started**.
 
 The fastest way to get started is through the interactive API explorer.
 
-👉 [Try the API in Swagger UI](./api.md)
+👉 [Try the API in Swagger UI](./swagger-ui.md)

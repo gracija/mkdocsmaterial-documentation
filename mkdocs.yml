@@ -26,6 +26,16 @@ theme:
   features:
     - navigation.footer
 
+nav:
+  - ReadME: readme.md
+  - Getting Started: getting-started.md
+  - Concepts:
+      - Overview: concepts/overview.md
+      - Workflows: concepts/workflows.md
+  - Api Reference: api-reference.md
+  - Errors & Status Codes: errors-and-status-codes.md
+  - Swagger UI: swagger-ui.md
+
 markdown_extensions:
   - attr_list
   - md_in_html
