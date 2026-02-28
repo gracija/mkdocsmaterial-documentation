@@ -27,7 +27,7 @@ theme:
     - navigation.footer
 
 nav:
-  - ReadME: readme.md
+  - ReadMe: index.md
   - Getting Started: getting-started.md
   - Concepts:
       - Overview: concepts/overview.md
