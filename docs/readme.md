@@ -82,4 +82,4 @@ see **Getting Started**.
 
 The fastest way to get started is through the interactive API explorer.
 
-👉 [Try the API in Swagger UI](./swagger-ui.md)
+👉 [Try the API in Swagger UI]([./swagger-ui.md](https://gracija.github.io/mkdocsmaterial-documentation/swagger-ui/))
