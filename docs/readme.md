@@ -73,7 +73,7 @@ The fastest way to try the API is through the interactive Swagger UI.
 3. Authorize using your token
 4. Execute `GET /user/repos`
 
-👉 For a detailed explanation of authentication, rate limits, and API structure,
+For a detailed explanation of authentication, rate limits, and API structure,
 see **Getting Started**.
 
 ---
@@ -82,4 +82,4 @@ see **Getting Started**.
 
 The fastest way to get started is through the interactive API explorer.
 
-👉 [Try the API in Swagger UI]([./swagger-ui.md](https://gracija.github.io/mkdocsmaterial-documentation/swagger-ui/))
+👉 [Try the API in Swagger UI](https://gracija.github.io/mkdocsmaterial-documentation/swagger-ui/)
